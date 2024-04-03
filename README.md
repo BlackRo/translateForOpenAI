@@ -1,2 +1,2 @@
-# translateForOpenAI
-Notes during the learning process
+# mygpt
+some messagesssssssssssssssssss 

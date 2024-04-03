@@ -1,0 +1,54 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+    --vp-c-text-1: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+    --vp-home-hero-image-filter: blur(44px);
+}
+.title{
+    background: var(--vp-home-hero-name-background);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+.VPButton >>> .brand {
+    background: var(--vp-home-hero-name-background);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+.main .text {
+    margin: 20px 0 !important;
+    font-size: 48px !important;
+  }
+@media (min-width: 960px){
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        transform: translate(0, -0) !important;
+    }
+    .image-bg{
+        width: 190px !important;
+        height: 190px !important;
+    }
+    .image-src {
+        max-width: 256px !important;
+        max-height: 256px !important;
+     }
+     .VPFeatures {
+        margin-top: 40px;
+        padding: 0 64px;
+    }
+}
+
+.vp-doc a {
+    font-weight: 500;
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+    text-underline-offset: 2px;
+    font-size: 15px;
+    transition: color 0.25s, opacity 0.25s;
+}

@@ -1,0 +1,44 @@
+{
+  "hash": "e1e256b4",
+  "browserHash": "9309c6d0",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "dd7cac5a",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "9f2a6399",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "dfa55891",
+      "needsInterop": false
+    },
+    "markdown-it": {
+      "src": "../../../../node_modules/markdown-it/index.js",
+      "file": "markdown-it.js",
+      "fileHash": "d060c10c",
+      "needsInterop": true
+    },
+    "markdown-it-highlightjs": {
+      "src": "../../../../node_modules/markdown-it-highlightjs/index.js",
+      "file": "markdown-it-highlightjs.js",
+      "fileHash": "f8189da5",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-3C4OEVM2": {
+      "file": "chunk-3C4OEVM2.js"
+    },
+    "chunk-LQ2VYIYD": {
+      "file": "chunk-LQ2VYIYD.js"
+    }
+  }
+}
